@@ -11070,6 +11070,75 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+/* Capture modal container */
+@media (max-width: 768px) {
+  #capture .section-heading {
+      font-size: 1.5rem; /* Reduce heading size */
+  }
+  #capture .section-subheading {
+      font-size: 1rem; /* Reduce subheading size */
+  }
+  .capture-image {
+      max-width: 90%; /* Add extra padding around the image */
+      margin: 0 auto; /* Center the image */
+  }
+}
+#captureModal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.capture-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal header */
+.capture-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Ensure the capture image scales properly */
+.capture-image {
+  max-width: 100%; /* Ensures image width does not exceed container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+
+/* Capture button */
+.capture-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.capture-button:hover {
+  background-color: #45a049;
+}
+
+
 .timeline {
   position: relative;
   padding: 0;

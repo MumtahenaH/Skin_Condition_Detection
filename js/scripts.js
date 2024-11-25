@@ -50,5 +50,19 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    function openCaptureModal() {
+        document.getElementById("captureModal").style.display = "flex";
+      }
+      
+      // Close the capture modal
+      function closeCaptureModal() {
+        document.getElementById("captureModal").style.display = "none";
+      }
+      
+      // Example capture action
+      function startCapture() {
+        alert("Capture process started!");
+        closeCaptureModal();
+      }
 
 });
