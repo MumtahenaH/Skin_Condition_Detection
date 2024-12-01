@@ -93,11 +93,13 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-3 col-sm-4 col-8 col-xs-10 mx-auto text-center">
                 <!-- Image Capture Button -->
-                <a class="button" href="#capture">
+                <video id="camera" autoplay></video>
+                <a class="button capture-btn" href="#capture">
                     <span class="fa-stack fa-4x">
                         <img class="img-fluid capture-image" src="../assets/img/capture/capture.png" alt="Capture Image" />
                     </span>
                 </a>
+                <canvas id="photo"></canvas>
             </div>
         </div>
         
