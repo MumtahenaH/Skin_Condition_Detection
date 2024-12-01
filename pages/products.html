@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=(), user-id=()" />
+        <title>Skin Detection</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="\index.html">Home</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                
+                <div class="masthead-heading">Skin Care Begins Here!</div>
+                <a class="btn btn-outline-secondary btn-xl text-uppercase" href="#services">Tell Me More</a>
+            </div>
+        </header>
+        <!-- Services-->
+  
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-white" id="products">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Products List</h2>
+                    <h3 class="section-subheading text-muted">Products recommended by our system</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/acne/rdn-niacinamide-10pct-zinc-1pct-30ml.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">The Ordinary Niacinamide 10%+Zinc1%</div>
+                                <div class="portfolio-caption-subheading text-muted">A universal serum for blemish-prone skin that smooths, brightens, and supports.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/acne/d36a8764dc66ddd502e6fa3e238ce7fb.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Cosrx Salicylic Acid Daily Gentle Cleanser</div>
+                                <div class="portfolio-caption-subheading text-muted">A Salicylic Acid Exfoliating Cleanser that reduces acne breakouts and promotes clearer skin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/acne/Neutrogena-Hydro-Boost-Gel-Moisturizer-with-Hyaluronic-Acid-Hydrating-1-7-fl-oz-2-Pack_8f92ecc1-a167-4e25-8ec5-999457f449a7.295f6134f6e5044cbce68401e68c2ca6.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Neutrogena Hydro Boost Water Gel</div>
+                                <div class="portfolio-caption-subheading text-muted">Face moisturizer is ideal for providing weightless hydration to dry, sensitive, & acne-prone skin</div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="page-section bg-white" id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/eyebags/rdn-caffeine-solution-5pct-egcg-30ml.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">The Ordinary Caffeine Solution 5% + EGCG</div>
+                                <div class="portfolio-caption-subheading text-muted">A depuffing solution for tired eyes.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/eyebags/Olay-Vitamin-C-Peptide-24-BRIGHTENING-FACIAL-CLEANSER1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Olay Vitamin C + Peptide 24 BRIGHTENING FACIAL CLEANSER</div>
+                                <div class="portfolio-caption-subheading text-muted">Facial cleanser expertly formulated with Vitamin C and Peptides. It contains gentle exfoliators that will smooth skin.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/eyebags/CeraVe_Eye_Repair_Cream_05oz_FRONT-700x875-v2.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">CeraVe Eye Repair Cream</div>
+                                <div class="portfolio-caption-subheading text-muted">Reduce the appearance of dark circles and eye puffiness.</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section bg-white" id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 7-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/wrinkles/rdn-retinol-0-5pct-in-squalane-30ml.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Retinol 0.5% in Squalane</div>
+                                <div class="portfolio-caption-subheading text-muted">A moderate-strength retinol serum that targets general signs of skin aging.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/wrinkles/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvNTJcLzUyNzMwLTIyNDE5MzNfd2FpZnUyeF9waG90b19ub2lzZTFfc2NhbGUtdmhlemY4LnBuZyIsImVkaXRzIjpbXX0=.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Cerave Hydrating Facial Cleanser For Normal To Dry Skin</div>
+                                <div class="portfolio-caption-subheading text-muted">Developed with dermatologists, this gentle face wash is formulated with key ingredients such as ceramides and hyaluronic acid to help restore and maintain the skin's natural barrier while retaining its natural moisture.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#product9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-spray-can-sparkles fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="../assets/img/wrinkles/Olay-Day-Cream-Regenerist-Microsculpting-Moisturiser-NON-SPF-4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading py-4">Olay Day Cream Regenerist Microsculpting Moisturiser (NON SPF)</div>
+                                <div class="portfolio-caption-subheading text-muted">Intensely hydrates with a rich non-greasy feel; Has 20 percent more anti ageing ingredients</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Product 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="product1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                       <!-- Product details-->
+                                    <h2 class="text-uppercase">Niacinamide 10% + Zinc 1%</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        All Skin Types</p>
+                                    
+                                    <p>Niacinamide 10% + Zinc 1% serum is a water-based formula that delivers multiple niacinamide benefits to enhance skin brightness, improve texture, and strengthen the skin’s moisture barrier. This serum with niacinamide (vitamin B3) contains a high concentration (10%) as well as Zinc PCA to target dullness, uneven texture, and excess oil. Niacinamide 10% + Zinc 1% also helps reduce the appearance of pores, and instantly boosts skin radiance.</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
+
+        <!-- Product 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="product2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                     <!-- Product details-->
+                                    <h2 class="text-uppercase">Salicylic Acid Daily Gentle Cleanser 150milliliter / Foam Cleanser for Blemish Skin</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        Sensitive Skin Types</p>
+                                    
+                                    <p>A Salicylic Acid Exfoliating Cleanser that reduces acne breakouts and promotes clearer skin; Salicylic Acid removes dead skin cell and make room for new skin cell; It also contains Tea Tree Leaf Oil which has anti-inflammatory effect and sterilization action; Micro Creamy Soap System makes perfect cleansing!</p>
+                                    
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <!-- Product 3 modal popup-->
+           <div class="portfolio-modal modal fade" id="product3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Product details-->
+                                    <h2 class="text-uppercase">Neutrogena Hydro Boost Water Gel</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        Sensitive Skin Types</p>
+                                    
+                                    <p>Instantly quench dry skin for a healthy-looking glow day after day. This award-winning formula with Hyaluronic Acid absorbs quickly like a gel but has the lasting, intense moisturizing power of a cream. Clinically proven to help strengthen skin’s moisture barrier. Oil-free, non-comedogenic formula won't clog pores. Wear it alone or under makeup as a moisturizer.</p>
+                                    
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <!-- Product 4 modal popup-->
+           <div class="portfolio-modal modal fade" id="product4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Product details-->
+                                    <h2 class="text-uppercase">The Ordinary Caffeine Solution 5% + EGCG</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        All Skin Types</p>
+                                    
+                                    <p>Caffeine Solution 5% + EGCG is an effective, water-based serum that targets dark circles and puffiness around the eyes, promoting under-eye brightening. Formulated with a 5% concentration of caffeine and epigallocatechin gallatyl glucoside (EGCG), this potent serum helps improve the look of tired eyes while providing a brightening effect. Caffeine works to reduce puffiness, while EGCG works to help reduce the appearance of dark circles.
+
+                                    This lightweight formula is ideal for those looking for a targeted eye brightener that fits seamlessly into any skincare routine, leaving you with more refreshed and awakened-looking eyes.</p>
+                                    
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Product 5 modal popup-->
+            <div class="portfolio-modal modal fade" id="product5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                         <!-- Project details-->
+                                        <h2 class="text-uppercase">Olay Vitamin C + Peptide 24 BRIGHTENING FACIAL CLEANSER</h2>
+                                        <p class="item-intro text-muted">Suited to
+                                            all Skin Types</p>
+                                        
+                                        <p>VITAMIN C FACE WASH: Facial cleanser expertly formulated with Vitamin C and Peptides. It contains gentle exfoliators that will smooth skin.
+                                        SUGAR & CREAM: Creamy and gentle, this formula has unique exfoliating beads (like the texture of sugar) that break down as you cleanse so you don’t over-scrub.
+                                        FRESH SQUEEZED INGREDIENTS: This formula, crafted with Vitamin C and Peptides, preps skin for other Vitamin C + Peptide 24 products.
+                                        REFRESHED GLOW: You will instantly experience deeply cleansed skin prepped to absorb other products. Day 1, your skin will feel smooth, supple, and soft. In 1 month, you will see improvement in your skin’s natural surface regeneration.
+                                        CLEAN INGREDIENTS: Made without parabens, phthalates, synthetic dyes or mineral oils.</p>
+                                        
+                                        
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- Product 6 modal popup-->
+           <div class="portfolio-modal modal fade" id="product6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Salicylic Acid Daily Gentle Cleanser 150milliliter / Foam Cleanser for Blemish Skin</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        All Skin Types</p>
+                                    
+                                    <p>The delicate skin around your eyes can be prone to puffiness, dark circles, and other visible signs of fatigue. Adding a moisturizing eye cream to your daily skincare routine can help hydrate, brighten, and smooth your under-eye area. When selecting a moisturizing eye cream for puffy, tired-looking eyes and dark circles, look for products formulated with beneficial ingredients—like ceramides, hyaluronic acid, and niacinamide—to lock in moisture and help maintain your skin’s protective barrier. CeraVe Eye Repair Cream is ophthalmologist-tested and features a non-greasy, fast-absorbing, fragrance-free formula that works to minimize the appearance of dark circles and eye puffiness. It’s formulated with three essential ceramides, hyaluronic acid, niacinamide, and a Marine & Botanical Complex to help brighten your entire eye area. Plus, MVE technology continually releases moisturizing ingredients for all-day hydration. Allergy-tested</p>
+                                    
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Product 7 modal popup-->
+            <div class="portfolio-modal modal fade" id="product7" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Product details-->
+                                        <h2 class="text-uppercase">Retinol 0.5% in Squalane</h2>
+                                        <p class="item-intro text-muted">Suited to
+                                            All Skin Types</p>
+                                        
+                                        <p>Retinol 0.5% in Squalane offers a water-free solution containing 0.5% retinol—an ingredient that improves the appearance of fine and dynamic lines that arise from a loss of collagen and elastin, while evening skin texture and tone. What’s more, this intermediate formula is supported with squalane, a moisturizing agent naturally found in your skin that enhances surface-level hydration and helps combat the dryness that can be associated with retinol use.
+
+                                         Start with Retinol 0.2% in Squalane and slowly work your way up to Retinol 0.5% in Squalane and Retinol 1% in Squalane. That said, if you are prone to sensitivity, you may prefer to use newer retinoid technologies, such as those found in our Granactive Retinoid 2% Emulsion.</p>
+                                        
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- Product 8 modal popup-->
+        <div class="portfolio-modal modal fade" id="product8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Cerave Hydrating Facial Cleanser For Normal To Dry Skin</h2>
+                                    <p class="item-intro text-muted">Suited to
+                                        Normal to Dry Skin Types</p>
+                                    
+                                    <p>A cleanser can remove dirt, makeup and other debris, but a hydrating cleanser, like CeraVe Hydrating Facial Cleanser, can do all that without disrupting the skin’s natural protective barrier or stripping the skin of its natural moisture. Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skin’s natural barrier to help the skin lock in moisture. CeraVe Hydrating Cleanser was designed to cleanse and refresh the skin without over-stripping it or leaving it feeling tight and dry. Featuring hyaluronic acid to hydrate the skin and 3 essential ceramides that work together to lock in skins moisture and help restore your skin’s protective barrier. MVE Delivery Technology encapsulates ceramides to ensure efficient delivery within the skin’s barrier and slow release over time. Supporting your protective skin barrier, long after you’ve finish applying. This non-comedogenic face wash is an effective yet non-irritating way to start off any skincare regimen. Best for normal to dry skin.</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Product 9 modal popup-->
+            <div class="portfolio-modal modal fade" id="product9" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                       
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Product details-->
+                                        <h2 class="text-uppercase">Olay Day Cream Regenerist Microsculpting Moisturiser (NON SPF)</h2>
+                                        <p class="item-intro text-muted">Suited to
+                                            All Skin Types</p>
+                                        
+                                        <p>Intensely hydrates with a rich non-greasy feel; Has 20 percent more anti ageing ingredients. Using your fingertips, massage a small amount on the face and neck in an upward circular motion, focusing on areas like the brow and jaw line, which need more support. Use morning and night.</p>
+                                        
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fa-solid fa-xmark"></i>
+                                        Close
+                                    </button>
+                                    
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
