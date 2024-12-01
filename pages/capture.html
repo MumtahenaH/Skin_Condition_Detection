@@ -36,27 +36,7 @@
           cursor: pointer;
         }
         
-        .button:after {
-    content: "";
-    background: #f8f9fa;
-    display: block;
-    position: absolute;
-    width: 200%; /* Adjusted size */
-    height: 300%; /* Adjusted size */
-    top: 70%; /* Centered vertically */
-    left: 50%; /* Centered horizontally */
-    transform: translate(-50%, -50%); /* Centers the element */
-    opacity: 0;
-    transition: all 0.8s;
-}
 
-        
-        .button:active:after {
-          padding: 0;
-          margin: 0;
-          opacity: 1;
-          transition: 0s
-        }
         </style>
     <body id="page-top">
         <!-- Navigation-->
@@ -93,17 +73,23 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-md-3 col-sm-4 col-8 col-xs-10 mx-auto text-center">
                 <!-- Image Capture Button -->
-                <video id="camera" autoplay></video>
-                <a class="button capture-btn" href="#capture">
-                    <span class="fa-stack fa-4x">
+                
+                <a class="button" href="#capture">
+                    <input type="file" accept="image/*" name="image" id="file" style="display: none;">
+                    <label for="file"> <span class="fa-stack fa-4x">
                         <img class="img-fluid capture-image" src="../assets/img/capture/capture.png" alt="Capture Image" />
                     </span>
+</label>
+                    
                 </a>
-                <canvas id="photo"></canvas>
+                
             </div>
         </div>
         
     </div>
+    <script>
+        
+    </script>
 </section>
 
         
